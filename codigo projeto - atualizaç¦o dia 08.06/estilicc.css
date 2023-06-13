@@ -1,0 +1,247 @@
+
+
+html,body{
+    height: 150%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom,white,#ccdce3, #2CAAE4,#2CAAE4,#ccdce3, white);
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(10 1fr);
+    gap: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.item{
+padding: 10px;
+border: 20px;
+
+}
+
+
+.titimg{
+
+    position: absolute;
+    top: 20px; 
+    right: 60px; 
+}
+
+
+
+h1{
+    color:#001E5A;
+    font-family: ELNATH;
+
+}
+h2{
+    color:#000000;
+    font-family: ELNATH;
+
+}
+
+p{
+    color:black;
+    font-family: Chakra Petch;
+    font-size: 20px;
+}
+
+main{
+  display: flex;
+  position: absolute;
+top: 110px;
+left: 5%;
+}
+li{
+    color:black;
+    font-family: Chakra Petch;
+    font-size: 20px;
+    margin: 0px;
+
+}
+
+.cc{
+    flex: 1;
+
+            padding: 20px;
+            margin-right: 20px;
+            position: absolute;
+            top: -120px;
+            font-size: 70px; 
+            margin: 0px;
+}
+.ccc{
+    font-size: 35px; 
+    margin: 0px;
+    padding: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 250px;
+
+}
+
+.titu{
+    flex: 1;
+            font-size: 10px;
+            padding: 10px;
+            margin-right: 20px;
+            position: absolute;
+            left: 300%;
+            top: 600px;
+}
+.proj{
+    font-size: 30px;
+    position: absolute;
+    left: 450px;
+    top: 600px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.quest{
+
+    position: absolute;
+    top: 500px; 
+    right: -1300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+aside{
+    width: 100px;
+  left:20px;
+  width: 80%;
+            padding: 20px;
+}
+.cereja{
+    position: absolute;
+left: 450px;
+top: -100px;
+}
+
+.bio{
+   width: 500px;
+    position: absolute;
+    top:700px; 
+    left:50px;
+    
+}
+.inov{
+    width: 500px;
+     position: absolute;
+     top:1600px; /* diferença de 900px*/
+     left:50px;
+     
+ }
+ .robot{
+    width: 500px;
+     position: absolute;
+     top:2500px; /* diferença de 900px*/
+     left:50px;
+ }
+ .prog{
+    width: 500px;
+     position: absolute;
+     top:3400px; /* diferença de 900px*/
+     left:50px;
+ }
+ .vida{
+    width: 500px;
+     position: absolute;
+     top:4300px; /* diferença de 900px*/
+     left:50px;
+ }
+ .hora{
+    width: 500px;
+     position: absolute;
+     top:5200px; /* diferença de 900px*/
+     left:50px;
+ }
+ 
+ 
+
+.titbio{
+    overflow: auto;
+}
+.bioimg{
+    float: right; 
+   width: 30%;
+}
+.biotxt{
+    float: left; 
+    font-size: 50px;
+    width: 70%;
+}
+.biocontent{
+
+    width: 1280px;
+    overflow: auto;
+    position: absolute;
+    top: 900px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.inovcontent{
+
+    width: 1280px;
+    overflow: auto;
+    position: absolute;
+    top: 1800px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.robotcontent{
+
+    width: 1280px;
+    overflow: auto;
+    position: absolute;
+    top: 2700px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.progcontent{
+
+    width: 1280px;
+    overflow: auto;
+    position: absolute;
+    top: 3600px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0px;
+}
+.vidacontent{
+
+    width: 1280px;
+    overflow: auto;
+    position: absolute;
+    top: 4500px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.horacontent{
+
+    width: 1280px;
+    overflow: auto;
+    position: absolute;
+    top: 5400px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.img{
+   float: left;
+   width: 50%;
+}
+.biocont{
+    float: right;
+    width: 35%;
+    font-size: 50px;
+    margin: 0px;
+}
+
+
+@media(max-width:430px){
+    aside{ 
+    display: none;
+    }
+}
