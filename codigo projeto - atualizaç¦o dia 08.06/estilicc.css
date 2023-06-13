@@ -7,24 +7,29 @@ html,body{
     background-image: linear-gradient(to bottom,white,#ccdce3, #2CAAE4,#2CAAE4,#ccdce3, white);
 }
 
-.menu{
-    display: grid;
-    grid-template-columns: repeat(10 1fr);
-    gap: 0px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff;
-    padding: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-}
-.item{
-padding: 10px;
-border: 20px;
 
-}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .logo img {
+    display: block;
+    width: 200px;
+  }
+  
+  .menu-botao{
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .menu-botao img {
+    display: block;
+  }
 
 
 .titimg{
